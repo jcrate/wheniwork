@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wheniwork/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "wheniwork_ext"
+  spec.name          = "wheniwork"
   spec.version       = Wheniwork::VERSION
   spec.authors       = ["Imran Haider"]
   spec.email         = ["haider_6017@hotmail.com"]
