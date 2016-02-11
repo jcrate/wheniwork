@@ -11,7 +11,7 @@ describe WhenIWork::Configuration do
     end
 
     it 'enables cache by default' do
-      expect(subject.cache_enabled).to be_true
+      expect(subject.cache_enabled).to be(true)
     end
   end
 end
