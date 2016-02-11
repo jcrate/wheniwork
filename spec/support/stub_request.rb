@@ -14,6 +14,6 @@ module StubRequest
   end
 
   def fixture(file)
-    JSON.load(File.new(fixture_path + '/' + file))
+    JSON.load(File.new(fixture_path + '/' + file)).to_json
   end
 end
