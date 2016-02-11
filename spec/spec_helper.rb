@@ -5,6 +5,7 @@ $LOAD_PATH.unshift dir + '/../lib'
 
 Dir['./spec/support/*.rb'].each { |f| require f }
 
+require 'pry'
 require 'wheniwork'
 
 RSpec.configure do |c|
